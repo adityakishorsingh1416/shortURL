@@ -7,7 +7,6 @@ import dotenv from 'dotenv'
 
 const PORT = process.env.PORT
 const app = express()
-const PORT = 8001
 dotenv.config()
 
 // Middleware
