@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }))
 app.set('view engine', 'ejs')
 
 // Database connection
-connectDB('process.env.MONGODB_URI')
+connectDB(process.env.MONGODB_URI)
     .then(() => console.log("Database is connected 🚀"))
     .catch((err) => console.log(err))
 
